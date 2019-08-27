@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+	
+
+
+	<form action="{{ url_for('handle_compare') }}" method="post">
+	    <p>Choose the Compare Mode</p>
+	    <input list="comparemodes" name="compareMode">
+	    <datalist id="comparemodes">
+	        <option value="File Mode" name="File Mode">
+	        <option value="URL Mode" name="URL Mode">
+	        <option value="File and URL Mode" name="File and URL Mode">
+	    </datalist>
+	    <input type="submit">
+	</form>
+</body>
+</html>

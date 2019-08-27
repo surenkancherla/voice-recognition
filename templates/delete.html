@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+<form action="{{ url_for('handle_delete') }}" method="post">
+    <p>Enter the directory name</p>
+    <input list="folders" name="inputFolder">
+    <datalist id="folders">
+        <option value="uploads" name="uploads">
+        <option value="audio_sources" name="audio_sources">
+        <option value="test_samples" name="test_samples">
+        <option value="Speakers_models" name="Speakers_models">
+        <option value="Unknown" name="Unknown">
+        <option value="all" name="all">
+    </datalist>
+    <input type="submit">
+</form>
+
+</body>
+</html>
