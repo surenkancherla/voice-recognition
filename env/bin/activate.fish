@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/jpmc/geethika-voice/backup/today/voice-recognition/env"
+set -gx VIRTUAL_ENV "/Users/jpmc/geethika-voice/backup/today/poc/voice-recognition/env"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

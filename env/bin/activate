@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/jpmc/geethika-voice/backup/today/voice-recognition/env"
+VIRTUAL_ENV="/Users/jpmc/geethika-voice/backup/today/poc/voice-recognition/env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
