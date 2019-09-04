@@ -62,10 +62,24 @@ https://nlp.stanford.edu/courses/lsa352/lsa352.lec6.ppt
 
 http://mirlab.org/jang/books/audioSignalProcessing/speechFeatureMfcc.asp?title=12-2%20MFCC
 
+https://www.researchgate.net/publication/248392078_Convolutive_ICA-Based_Forensic_Speaker_Identification_Using_Mel_Frequency_Cepstral_Coefficients_and_Gaussian_Mixture_Models
+
 # GMM
 https://pdfs.semanticscholar.org/8aa5/a355653291bbdad7272d57dbaa7f452668c1.pdf
+https://towardsdatascience.com/clustering-based-unsupervised-learning-8d705298ae51
+https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95
+https://www.quora.com/What-is-the-difference-between-K-means-and-the-mixture-model-of-Gaussian
+https://stephens999.github.io/fiveMinuteStats/intro_to_em.html
+https://towardsdatascience.com/gaussian-mixture-models-d13a5e915c8e
+https://link.springer.com/article/10.1186/s13634-017-0515-7 - formulas
+
 
 # Log likelihood
 https://towardsdatascience.com/probability-concepts-explained-maximum-likelihood-estimation-c7b4342fdbb1
+
+https://www.hindawi.com/journals/misy/2017/6986391/
+
+
+
 
 
