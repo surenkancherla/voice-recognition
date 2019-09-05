@@ -26,11 +26,21 @@ def calculate_delta(array):
     return deltas
 
 def extract_features(audio,rate):
-    """extract 20 dim mfcc features from an audio, performs CMS and combines 
-    delta to make it 40 dim feature vector"""    
+    """ extract 20 dim mfcc features from an audio, performs CMS and combines 
+    delta to make it 40 dim feature vector
+    audo - The audio signal from which to compute features
+    rate - Sample rate
+    0.025 default - is window length in milliseconds
+    0.01 default - the step between successive windows
+    20 - number of cepstrums to return default 13
+    nfft = number of filter size 
+    appendEnergy = if this is true, the zeroth cepstral coefficient is replaced with the log of the total frame energy.
+    """    
     
-    mfcc_feature = mfcc.mfcc(audio,rate, 0.025, 0.01,20,nfft = 1200, appendEnergy = True)    
+    mfcc_feature = mfcc.mfcc(audio,rate, 0.025, 0.01,20,nfft = 1200, appendEnergy = True) 
+    ''' A numpy array of size (NUMFRAMES by numcep) containing features. Each row holds 1 feature vector. '''    
     mfcc_feature = preprocessing.scale(mfcc_feature)
+    ''' normalizing - Center to the mean and component wise scale to unit variance.'''
     delta = calculate_delta(mfcc_feature)
     combined = np.hstack((mfcc_feature,delta)) 
     return combined
