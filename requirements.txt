@@ -3,7 +3,7 @@ astroid==2.2.5
 azure-common==1.1.18
 azure-storage-common==1.4.0
 azure-storage-file==1.4.0
-certifi==2019.3.9
+certifi==2022.12.7
 cffi==1.12.2
 chardet==3.0.4
 Click==7.0
